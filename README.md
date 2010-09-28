@@ -19,4 +19,4 @@ jQuery Link Tracker Plugin may be initialized at any time (usually at DOMReady).
         });
     })(jQuery);
 
-For specific usage and options, please read the documentation or visit [http://vkurseweba.ru/blog/track-outbound-links-in-google-analytics-with-jquery)
+For specific usage and options, please read the documentation or visit [http://vkurseweba.ru/blog/track-outbound-links-in-google-analytics-with-jquery](http://vkurseweba.ru/blog/track-outbound-links-in-google-analytics-with-jquery)
