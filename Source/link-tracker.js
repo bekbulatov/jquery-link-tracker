@@ -61,7 +61,7 @@ requires:
                     file_type = $.inArray(href.substring(href.lastIndexOf('.')+1).toLowerCase(), options.fileTypes);
                     // if is not downloadable file
                     if (file_type == -1){
-                        var aHost = $.url.setUrl(href).attr('host');
+                        var aHost = this.hostname;
                         // if is relative url
                         if (!aHost || aHost == '..') return;
 
