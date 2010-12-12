@@ -14,7 +14,7 @@ jQuery Link Tracker Plugin may be initialized at any time (usually at DOMReady).
         $(document).ready(function(){
             jQuery('a').linkTracker({
                 inDomain : true,
-				fileTypes : [ 'pdf', 'zip', 'rar', 'tgz', 'gz', 'gzip', 'rar']
+				fileTypes : [ 'pdf', 'zip', 'tgz', 'gz', 'gzip', 'rar']
             });
         });
     })(jQuery);
