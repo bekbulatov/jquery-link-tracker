@@ -10,7 +10,6 @@ license:
 
 requires:
 	- jquery-1.3.js
-	- jquery.url.js
 
 ...
 */
@@ -21,7 +20,7 @@ requires:
         var defaults = {
             inDomain : true,
             event : 'mouseup',
-            fileTypes : [ 'pdf', 'zip', 'rar', 'tgz', 'gz', 'gzip', 'jpg', 'png', 'svg', 'gif', 'doc', 'eps', 'xls', 'ppt', 'xls', 'txt', 'vsd', 'js', 'css', 'rar', 'exe', 'wma', 'mov', 'avi', 'wmv', 'mp3']
+            fileTypes : [ 'pdf', 'zip', 'rar', 'tgz', 'gz', 'gzip', 'jpg', 'png', 'svg', 'gif', 'doc', 'eps', 'xls', 'ppt', 'xls', 'txt', 'vsd', 'js', 'css', 'exe', 'wma', 'mov', 'avi', 'wmv', 'mp3']
         };
 
         var options = $.extend(defaults, opts);
